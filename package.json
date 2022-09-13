@@ -1,0 +1,23 @@
+{
+  "name": "api-testing-workflow",
+  "version": "1.0.0",
+  "main": "/dist/app.js",
+  "repository": "git@github.com:eziz-hudayberdiyev/api-testing-workflow.git",
+  "author": "eziz-hudayberdiyev <ezizhudayberdiyev123456@gmail.com>",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/jest": "^29.0.1",
+    "@types/node": "^18.7.16",
+    "jest": "^29.0.3",
+    "ts-jest": "^29.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3",
+    "undici": "^5.10.0"
+  }
+}
